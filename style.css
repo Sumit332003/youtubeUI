@@ -7,8 +7,8 @@
 html , body{
     width: 100%;
     /* height: 100%; */
+ }
 
-}
 .main{
     width: 100vw;
     /* height: 100vh; */
@@ -16,17 +16,23 @@ html , body{
     overflow-x:hidden;
 
 }
+
 .parent{
     width: 100%;
     /* height: 100vh; */
  
 }
+::-webkit-scrollbar{
+    display: none;
+}
+ 
 /* .menuheade{
     width: 100%;
     height: 100px;
     background-color: #111;
 
 } */
+
 video{
     width: 100%;
     height: 100%;
@@ -211,6 +217,7 @@ justify-content: center;
     overflow: hidden;
    }
 
+
 /*Side bar */
 .fatherSlidebar{
     width: 5vw;
@@ -220,6 +227,7 @@ justify-content: center;
     /* overflow-x:hidden; */
    
 }
+
 .defaultMenu{
     width:5vw;
     height: 100%;
